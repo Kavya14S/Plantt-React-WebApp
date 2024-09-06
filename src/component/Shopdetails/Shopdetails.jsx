@@ -8,12 +8,12 @@ const Shopdetails = () => {
     <>
       {/*Hero section start */}
       <div className="2xl:container mx-auto bg-[#F2F7F2]">
-        <div className="w-[98%] mx-auto  grid grid-cols-1 md:grid-cols-3 gap-4">
+        <div className="w-[98%] mx-auto  grid grid-cols-1 md:grid-cols-3 gap-4 pb-4">
           <div className="flex flex-col justify-center items-center">
             <img
               src="https://ik.imagekit.io/9rldi0s2f8/Project/WhatsApp%20Image%202024-08-28%20at%2014.44.59_b8ab9385.jpg?updatedAt=1724837208241"
               alt="leaf"
-              className="h-60 rotate-[310deg] "
+              className="h-44 lg:h-60 rotate-[310deg] "
             />
           </div>
           <div className="flex flex-col justify-center items-center">
@@ -25,7 +25,7 @@ const Shopdetails = () => {
             <img
               src="https://ik.imagekit.io/9rldi0s2f8/Project/WhatsApp%20Image%202024-08-28%20at%2014.44.59_d430be2e.jpg?updatedAt=1724837145164"
               alt="flower"
-              className="h-48 rotate-center"
+              className="h-40 lg:h-48 rotate-center"
             />
           </div>
         </div>
@@ -41,21 +41,21 @@ const Shopdetails = () => {
                 className="h-80"
               />
             </div>
-            <div className="flex justify-center items-center space-x-4 overflow-auto">
+            <div className="flex justify-center items-center space-x-4 ">
               <img
                 src="https://ik.imagekit.io/9rldi0s2f8/Project/p5-removebg-preview.png?updatedAt=1724689876415"
                 alt="i2"
-                className="h-40 bg-[#F2F7F2] rounded-md"
+                className="h-24 md:h-40 bg-[#F2F7F2] rounded-md"
               />
               <img
                 src="https://ik.imagekit.io/9rldi0s2f8/Project/p6-removebg-preview.png?updatedAt=1724689876621"
                 alt="i3"
-                className="h-40 bg-[#F2F7F2] rounded-md"
+                className="h-24 md:h-40 bg-[#F2F7F2] rounded-md"
               />
               <img
                 src="https://ik.imagekit.io/9rldi0s2f8/Project/pdt2.png?updatedAt=1724680410911"
                 alt="i4"
-                className="h-40 bg-[#F2F7F2] rounded-md"
+                className="h-24 md:h-40 bg-[#F2F7F2] rounded-md"
               />
             </div>
           </div>

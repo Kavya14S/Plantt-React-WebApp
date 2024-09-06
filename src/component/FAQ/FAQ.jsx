@@ -5,7 +5,7 @@ const FAQ = () => {
     <>
     {/*Hero section start */}
     <div className="2xl:container mx-auto bg-[#F2F7F2]">
-        <div className="w-[98%] mx-auto  grid grid-cols-1 md:grid-cols-3 gap-4">
+        <div className="w-[98%] mx-auto  grid grid-cols-1 md:grid-cols-3 gap-4 pb-4">
           <div className="flex flex-col justify-center items-center">
             <img
               src="https://ik.imagekit.io/9rldi0s2f8/Project/WhatsApp%20Image%202024-08-28%20at%2014.44.59_b8ab9385.jpg?updatedAt=1724837208241"
