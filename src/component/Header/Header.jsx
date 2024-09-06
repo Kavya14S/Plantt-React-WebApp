@@ -57,7 +57,7 @@ const Header = () => {
               className="hidden md:flex font-[Raleway] text-[#F2F7F2] text-base flex-col justify-center items-center md:flex-row space-y-3 md:space-y-0 space-x-0 md:space-x-4 py-2 md:py-0 "
               id="content"
             >
-              <Link to="/home"><p className="hover:underline" onClick={handleCross}>Home</p></Link>
+              <Link to="/"><p className="hover:underline" onClick={handleCross}>Home</p></Link>
               <Link to="/shop"><p className="hover:underline" onClick={handleCross}>Shop</p></Link>
               <Link to="/about"><p className="hover:underline" onClick={handleCross}>About</p></Link>
               <Link to="/faq"><p className="hover:underline" onClick={handleCross}>FAQ</p></Link>

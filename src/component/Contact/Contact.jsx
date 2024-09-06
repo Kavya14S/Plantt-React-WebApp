@@ -12,7 +12,7 @@ const Contact = () => {
               <img
                 src="https://ik.imagekit.io/9rldi0s2f8/Project/WhatsApp%20Image%202024-08-28%20at%2014.44.59_b8ab9385.jpg?updatedAt=1724837208241"
                 alt="leaf"
-                className="h-60 rotate-[310deg] "
+                className="h-44 lg:h-60 rotate-[310deg] "
               />
             </div>
             <div className="flex flex-col justify-center items-center">
@@ -24,7 +24,7 @@ const Contact = () => {
               <img
                 src="https://ik.imagekit.io/9rldi0s2f8/Project/WhatsApp%20Image%202024-08-28%20at%2014.44.59_d430be2e.jpg?updatedAt=1724837145164"
                 alt="flower"
-                className="h-48 rotate-center"
+                className="h-40 lg:h-48 rotate-center"
               />
             </div>
           </div>
@@ -91,10 +91,13 @@ const Contact = () => {
       </div>
 
       <div className="2xl:container mx-auto">
-        <div className="w-[90%] mx-auto grid grid-cols-1">
-          <div>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.776573627422!2d80.11629207375772!3d13.049888887272715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5261124150321d%3A0x2e3809c1330b58f1!2s12%2F166%2C%20VGN%20Ave%2C%20Jeevan%20Prakash%20Nagar%2C%20Chennai%2C%20Tamil%20Nadu%20600056!5e0!3m2!1sen!2sin!4v1725083678166!5m2!1sen!2sin" width="1140" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-          </div>
+        <div className="w-[90%] mx-auto flex flex-col justify-center items-center grid grid-cols-1">
+          <div className="md:hidden mx-auto">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.7764914574122!2d80.11629207361136!3d13.049894113159827!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5261124150321d%3A0x2e3809c1330b58f1!2s12%2F166%2C%20VGN%20Ave%2C%20Jeevan%20Prakash%20Nagar%2C%20Chennai%2C%20Tamil%20Nadu%20600056!5e0!3m2!1sen!2sin!4v1725558015481!5m2!1sen!2sin"   allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>          </div>
+          <div className="hidden md:block lg:hidden mx-auto">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.7764914574122!2d80.11629207361136!3d13.049894113159827!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5261124150321d%3A0x2e3809c1330b58f1!2s12%2F166%2C%20VGN%20Ave%2C%20Jeevan%20Prakash%20Nagar%2C%20Chennai%2C%20Tamil%20Nadu%20600056!5e0!3m2!1sen!2sin!4v1725558015481!5m2!1sen!2sin" width="600" height="450"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>          </div>
+          <div className="hidden lg:block mx-auto">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.7764914574122!2d80.11629207361136!3d13.049894113159827!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5261124150321d%3A0x2e3809c1330b58f1!2s12%2F166%2C%20VGN%20Ave%2C%20Jeevan%20Prakash%20Nagar%2C%20Chennai%2C%20Tamil%20Nadu%20600056!5e0!3m2!1sen!2sin!4v1725558015481!5m2!1sen!2sin" width="1090" height="600"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>         </div>
         </div>
       </div>
       <Instagram />

@@ -12,7 +12,7 @@ const Blog = () => {
             <img
               src="https://ik.imagekit.io/9rldi0s2f8/Project/WhatsApp%20Image%202024-08-28%20at%2014.44.59_b8ab9385.jpg?updatedAt=1724837208241"
               alt="leaf"
-              className="h-60 rotate-[310deg] "
+              className="h-44 lg:h-60 rotate-[310deg] "
             />
           </div>
           <div className="flex flex-col justify-center items-center">
@@ -24,7 +24,7 @@ const Blog = () => {
             <img
               src="https://ik.imagekit.io/9rldi0s2f8/Project/WhatsApp%20Image%202024-08-28%20at%2014.44.59_d430be2e.jpg?updatedAt=1724837145164"
               alt="flower"
-              className="h-48 rotate-center"
+              className="h-40 lg:h-48 rotate-center"
             />
           </div>
         </div>
